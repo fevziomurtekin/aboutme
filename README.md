@@ -2,7 +2,6 @@
 
 About me page with Flutter.
 
-## Getting Started
+# ScreenShots
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+<img src="https://github.com/fevziomurtekin/aboutme/blob/master/v1.png" width="350" height="350" />
