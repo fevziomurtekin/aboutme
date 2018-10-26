@@ -15,26 +15,46 @@ class MyApp extends StatelessWidget {
     biography: 'Develop mobile App with Android \n'
         'Go and Flutter learn \n'
         'He is an ordinary software developer who reads political and historical books..',
-    videos: <Video>[
-      Video(
+    projects: <Project>[
+      Project(
         title: 'Bursa Cepte App',
         thumbnail: 'assets/bursacepte.png',
         url: 'https://play.google.com/store/apps/details?id=com.kuarkdijital.bursacepte',
       ),
-      Video(
-        title: 'Sensor Background Library',
-        thumbnail: 'assets/acce.png',
-        url: 'https://github.com/fevziomurtekin/sensor-background',
+      Project(
+        title: 'Samam',
+        thumbnail: 'assets/samam.png',
+        url: '',
       ),
-      Video(
+      Project(
         title: 'Medicabil App',
         thumbnail: 'assets/medicabil.png',
         url: 'https://play.google.com/store/apps/details?id=com.kuarkdijital.medicabil',
       ),
-      Video(
-        title: 'Sau Indoor Location App ',
-        thumbnail: 'assets/indoor.png',
-        url: 'https://www.youtube.com/watch?v=3qK8O3UoqN8',
+      Project(
+        title: 'Bkm Kitap ',
+        thumbnail: 'assets/bkm.png',
+        url: '',
+      ),
+      Project(
+        title: 'Tap Here ',
+        thumbnail: 'assets/ss.png',
+        url: '',
+      ),
+      Project(
+        title: 'Up or Down ',
+        thumbnail: 'assets/ss.png',
+        url: '',
+      ),
+      Project(
+        title: 'Fahri Polis ',
+        thumbnail: 'assets/fahri.png',
+        url: '',
+      ),
+      Project(
+        title: 'Indoor Location App ',
+        thumbnail: 'assets/sau.jpeg',
+        url: '',
       ),
     ],
   );

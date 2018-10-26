@@ -1,7 +1,7 @@
 import 'dart:ui' as ui;
 
 import 'package:aboutme/models.dart';
-import 'package:aboutme/video_card.dart';
+import 'package:aboutme/project_cart.dart';
 import 'package:flutter/material.dart';
 
 class MeDetail extends StatelessWidget {
@@ -15,7 +15,7 @@ class MeDetail extends StatelessWidget {
         children: <Widget>[
           _buildAvatar(),
           _buildInfo(),
-          _buildVideoScroller(),
+          _buildProjeScroller(),
         ],
       ),
     );
@@ -32,7 +32,7 @@ class MeDetail extends StatelessWidget {
       margin: const EdgeInsets.only(top: 32.0, left: 16.0),
       padding: const EdgeInsets.all(3.0),
       child: ClipOval(
-        child: Image.asset(me.avatar),
+        child: Image.asset(me.avatar,fit: BoxFit.fitWidth),
       ),
     );
   }
@@ -76,7 +76,7 @@ class MeDetail extends StatelessWidget {
     );
   }
 
-  Widget _buildVideoScroller() {
+  Widget _buildProjeScroller() {
     return Padding(
       padding: const EdgeInsets.only(top: 16.0),
       child: SizedBox.fromSize(
@@ -84,10 +84,10 @@ class MeDetail extends StatelessWidget {
         child: ListView.builder(
           scrollDirection: Axis.horizontal,
           padding: const EdgeInsets.symmetric(horizontal: 8.0),
-          itemCount: me.videos.length,
+          itemCount: me.projects.length,
           itemBuilder: (BuildContext context, int index) {
-            var video = me.videos[index];
-            return VideoCard(video);
+            var proje = me.projects[index];
+            return ProjectCard(proje);
           },
         ),
       ),

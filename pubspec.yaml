@@ -31,7 +31,10 @@ flutter:
   - assets/bursacepte.png
   - assets/indoor.png
   - assets/medicabil.png
-  - assets/acce.png
+  - assets/samam.png
+  - assets/fahri.jpg
+  - assets/sau.jpeg
+  - assets/bkm.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
 
-class Me {
+class Me { //model page.
   Me({
     @required this.firstName,
     @required this.lastName,
@@ -8,7 +8,7 @@ class Me {
     @required this.backdropPhoto,
     @required this.location,
     @required this.biography,
-    @required this.videos,
+    @required this.projects,
   });
 
   final String firstName;
@@ -17,11 +17,11 @@ class Me {
   final String backdropPhoto;
   final String location;
   final String biography;
-  final List<Video> videos;
+  final List<Project> projects;
 }
 
-class Video {
-  Video({
+class Project {
+  Project({
     @required this.title,
     @required this.thumbnail,
     @required this.url,
